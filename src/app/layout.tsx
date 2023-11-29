@@ -1,5 +1,3 @@
-
-
 import Navbar from "@/components/layout/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
@@ -26,7 +24,7 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body className={inter.className}>
        
-          <div className="w-full px-10 pt-12">
+          <div className="w-full px-4">
             <Navbar/>
             {children}</div>
        
@@ -34,3 +32,4 @@ export default function RootLayout({
     </html>
   );
 }
+
